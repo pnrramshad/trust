@@ -1,0 +1,284 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="Trust Link Business Services - UAE business setup, government, visa, PRO and document services.">
+<title>Trust Link Business Services | UAE</title>
+<style>
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;font-family:Arial,Helvetica,sans-serif;color:#122033;background:#f5f7fa}
+a{text-decoration:none;color:inherit}
+.wrap{width:min(1160px,calc(100% - 32px));margin:auto}
+header{position:sticky;top:0;z-index:100;background:#fff;border-bottom:1px solid #e7ebf0}
+.nav{height:76px;display:flex;align-items:center;justify-content:space-between;gap:20px}
+.logo{display:flex;align-items:center;gap:11px;font-weight:800;letter-spacing:.8px}
+.logo-mark{width:42px;height:42px;border-radius:12px;background:#173a63;color:#fff;display:grid;place-items:center;font-size:14px}
+.logo small{display:block;color:#748397;font-size:9px;letter-spacing:2px;margin-top:2px}
+.links{display:flex;gap:26px;align-items:center;font-size:14px;font-weight:600}
+.links a:hover{color:#1f73d1}
+.top-btn,.primary{background:#1769c2;color:#fff;padding:12px 18px;border-radius:9px;font-weight:700}
+.menu{display:none;border:0;background:none;font-size:28px}
+.hero{background:#0c2138;color:#fff;overflow:hidden}
+.hero-inner{min-height:650px;display:grid;grid-template-columns:1.08fr .92fr;gap:60px;align-items:center;padding:85px 0}
+.badge{display:inline-block;padding:8px 12px;border:1px solid #49617b;border-radius:30px;color:#b9d5ef;font-size:11px;font-weight:700;letter-spacing:1.5px}
+h1,h2,h3{margin:0;line-height:1.08}
+h1{font-size:clamp(44px,6vw,76px);letter-spacing:-3px;margin:22px 0}
+h1 span{color:#55c7df}
+.hero p{max-width:650px;color:#b9c8d8;font-size:18px;line-height:1.7}
+.actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:28px}
+.outline{padding:12px 18px;border:1px solid #61758b;border-radius:9px;color:#fff;font-weight:700}
+.stats{display:flex;gap:30px;margin-top:42px;flex-wrap:wrap}
+.stats strong{display:block;font-size:20px}
+.stats small{color:#9eb0c2}
+.visual{min-height:430px;border-radius:30px;background:linear-gradient(145deg,#173a5d,#102b46);border:1px solid #35516e;padding:28px;display:flex;flex-direction:column;justify-content:space-between;box-shadow:0 25px 70px #06142266}
+.visual-top{display:flex;justify-content:space-between;color:#9db2c7;font-size:11px;letter-spacing:1.5px}
+.circle{width:220px;height:220px;border:1px solid #51718f;border-radius:50%;margin:25px auto;display:grid;place-items:center;position:relative}
+.circle:before,.circle:after{content:"";position:absolute;border:1px solid #315a7d;border-radius:50%}
+.circle:before{inset:25px}.circle:after{inset:52px}
+.core{width:94px;height:94px;border-radius:22px;background:#55c7df;color:#082039;display:grid;place-items:center;text-align:center;font-weight:800;z-index:2}
+.quick{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.quick div{padding:13px;background:#ffffff0d;border:1px solid #ffffff12;border-radius:10px;font-size:12px;color:#dbe6ef}
+section{padding:100px 0}
+.section-head{display:flex;justify-content:space-between;gap:35px;align-items:end;margin-bottom:48px}
+.eyebrow{color:#1769c2;font-size:11px;font-weight:800;letter-spacing:2px;margin-bottom:12px}
+h2{font-size:clamp(34px,4.5vw,54px);letter-spacing:-2px}
+.section-head p{max-width:470px;color:#6c7b8d;line-height:1.7}
+.about-grid{display:grid;grid-template-columns:.8fr 1.2fr;gap:70px}
+.lead{font-size:29px;line-height:1.25;font-weight:700}
+.copy{color:#657487;line-height:1.75}
+.tags{display:flex;flex-wrap:wrap;gap:8px;margin-top:24px}
+.tag{background:#fff;border:1px solid #dde4eb;padding:8px 12px;border-radius:20px;font-size:12px;font-weight:700}
+.services{background:#fff}
+.services-feature{display:grid;grid-template-columns:1.05fr .95fr;gap:28px;align-items:stretch;margin:28px 0 34px}
+.services-intro{border-radius:24px;padding:34px;background:#f4f8fb;border:1px solid #e1e9f0;display:flex;flex-direction:column;justify-content:center}
+.services-intro h3{font-size:30px;line-height:1.15;margin:0 0 14px;color:#102238}
+.services-intro p{color:#68798c;line-height:1.75;margin:0;max-width:560px}
+.services-visual{min-height:300px;border-radius:24px;overflow:hidden;background:#0c2945;position:relative;display:flex;align-items:stretch;justify-content:center}
+.services-visual svg{width:100%;height:100%;display:block}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:15px}
+.card{border:1px solid #e0e6ed;border-radius:20px;padding:26px;min-height:250px;background:#fff;transition:.2s}
+.card:hover{transform:translateY(-5px);box-shadow:0 18px 45px #13263d14}
+
+.service-icon svg{width:25px;height:25px;fill:none;stroke:currentColor;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}.service-image{height:150px;margin:-2px -2px 18px;border-radius:16px;overflow:hidden;background:#eef5f8}.service-image svg{width:100%;height:100%;display:block}.card h3{margin-top:0}.card{overflow:hidden;padding:14px}.grid{align-items:stretch}
+.service-icon{position:relative}
+.service-icon:after{content:"";position:absolute;width:70px;height:70px;border-radius:50%;border:1px solid #55c7df33;right:-35px;bottom:-35px}
+.icon{width:52px;height:52px;border-radius:15px;background:#0e2a47;color:#55c7df;display:grid;place-items:center;margin:34px 0 18px;font-weight:800}
+.card h3{font-size:20px}
+.card p{color:#718094;font-size:14px;line-height:1.6}
+.mission{background:#0c2138;color:#fff}
+.mission .section-head p{color:#a9bacb}
+.mission-grid{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+.mission-card{border-radius:25px;padding:40px;min-height:370px}
+.mission-card:first-child{background:#edf5fb;color:#102238}
+.mission-card:last-child{background:#173a5d}
+.mission-icon{width:50px;height:50px;border-radius:14px;background:#55c7df;color:#092139;display:grid;place-items:center;font-weight:800}
+.mission-card h3{font-size:36px;margin:25px 0 18px}
+.mission-card p{line-height:1.7;color:#68798c}
+.mission-card:last-child p{color:#b9c8d8}
+.cta{background:#1769c2;color:#fff;padding:72px 0}
+.cta-row{display:flex;align-items:center;justify-content:space-between;gap:30px}
+.cta h2{max-width:720px}
+.cta p{color:#d3e5f6}
+.white{background:#fff;color:#153454;padding:14px 20px;border-radius:9px;font-weight:800;white-space:nowrap}
+.contact{background:#fff}
+.contact-grid{display:grid;grid-template-columns:1fr .85fr;gap:50px}
+.items{display:grid;gap:12px}
+.item{display:grid;grid-template-columns:48px 1fr;gap:15px;border:1px solid #e0e6ed;border-radius:17px;padding:18px}
+.item-icon{width:48px;height:48px;background:#edf4fa;color:#1769c2;border-radius:12px;display:grid;place-items:center;font-weight:800}
+.item small{font-size:10px;color:#8997a7;letter-spacing:1.5px;font-weight:800}
+.item h3{font-size:18px;margin:5px 0}
+.item p{margin:0;color:#6d7c8d;font-size:14px;line-height:1.6}
+.map{height:300px;border-radius:18px;background:#e7edf2;position:relative;overflow:hidden;align-self:start;box-shadow:0 10px 28px #0b233615}.map iframe{width:100%;height:100%;border:0;display:block;pointer-events:none}.map-click{position:absolute;left:14px;right:14px;bottom:14px;display:flex;align-items:center;justify-content:center;gap:8px;background:rgba(255,255,255,.96);color:#102a44;padding:12px 14px;border-radius:10px;text-decoration:none;font-size:13px;font-weight:800;box-shadow:0 5px 18px #0002}.map-click span:first-child{font-size:17px}.map-click span:last-child{font-size:17px;color:#1769c2}
+footer{background:#071522;color:#aab9c8;padding:28px 0}
+.footer{display:flex;justify-content:space-between;align-items:center;gap:20px}
+.footer .logo{color:#fff}.footer p{font-size:12px}
+.float{position:fixed;right:18px;bottom:18px;z-index:90;width:52px;height:52px;border-radius:50%;display:grid;place-items:center;font-weight:800;box-shadow:0 10px 30px #0003}
+.wa{background:#25d366;color:#fff}.call{right:82px;background:#55c7df;color:#082039}
+@media(max-width:850px){
+ .map{height:210px}.map iframe{height:100%}
+ .links,.top-btn{display:none}.menu{display:block;color:#173a63}
+ .links.open{display:flex;position:absolute;top:76px;left:16px;right:16px;background:#fff;border:1px solid #e3e8ee;border-radius:14px;padding:16px;flex-direction:column;align-items:flex-start;box-shadow:0 15px 40px #0002}
+ .hero-inner,.about-grid,.contact-grid{grid-template-columns:1fr}
+ .hero-inner{padding:65px 0}
+ .section-head{align-items:flex-start;flex-direction:column}
+ .grid{grid-template-columns:1fr 1fr}
+ .mission-grid{grid-template-columns:1fr}
+ .cta-row{align-items:flex-start;flex-direction:column}
+}
+@media(max-width:560px){
+ .wrap{width:calc(100% - 24px)}
+ section{padding:58px 0}
+ h1{letter-spacing:-2px}
+ .grid{grid-template-columns:1fr 1fr;gap:10px}
+ .card{padding:10px;border-radius:16px;min-height:0}
+ .service-image{height:88px;margin:-1px -1px 11px;border-radius:12px}
+ .card h3{font-size:16px;line-height:1.2;margin:0 0 7px}
+ .card p{font-size:12px;line-height:1.5;margin:0}
+ .service-icon{display:none}
+ .services-feature{grid-template-columns:1fr;gap:14px;margin:20px 0 26px}
+ .services-intro{padding:22px;border-radius:18px}
+ .services-intro h3{font-size:23px;margin-bottom:9px}
+ .services-intro p{font-size:14px;line-height:1.6}
+ .services-visual{min-height:180px;max-height:200px;border-radius:18px}
+ .visual{min-height:390px}
+ .quick{grid-template-columns:1fr}
+ .lead{font-size:24px}
+ .mission-card{padding:30px}
+ .mission-card h3{font-size:30px}
+ .footer{align-items:flex-start;flex-direction:column}
+}
+</style>
+</head>
+<body>
+
+<header>
+<div class="wrap nav">
+<a class="logo" href="#home"><span class="logo-mark">TL</span><span>TRUST LINK<small>BUSINESS SERVICES</small></span></a>
+<nav class="links" id="links">
+<a href="#home">Home</a><a href="#about">About</a><a href="#services">Services</a><a href="#mission">Mission & Vision</a><a href="#contact">Contact</a>
+</nav>
+<a class="top-btn" href="https://wa.me/971562669307" target="_blank">WhatsApp</a>
+<button class="menu" id="menu" aria-label="Menu">☰</button>
+</div>
+</header>
+
+<main>
+<section class="hero" id="home">
+<div class="wrap hero-inner">
+<div>
+<div class="badge">UAE BUSINESS & GOVERNMENT SOLUTIONS</div>
+<h1>Your trusted partner in <span>business.</span></h1>
+<p>Professional typing, business setup, visa, PRO, document processing and corporate support services — helping individuals, investors and companies navigate the UAE with confidence.</p>
+<div class="actions"><a class="primary" href="#services">Explore Services →</a><a class="outline" href="tel:+971562669307">Call +971 56 266 9307</a></div>
+<div class="stats"><div><strong>UAE</strong><small>Business Support</small></div><div><strong>Fast</strong><small>Process Assistance</small></div><div><strong>Trusted</strong><small>Client-Centered Service</small></div></div>
+</div>
+<div class="visual">
+<div class="visual-top"><span>TRUST LINK</span><span>01 / UAE</span></div>
+<div class="circle"><div class="core">BUSINESS<br>SUPPORT</div></div>
+<div class="quick"><div>✓ Company formation & licensing</div><div>✓ Visa & Emirates ID</div><div>✓ Government & PRO services</div><div>✓ Attestation & translation</div></div>
+</div>
+</div>
+</section>
+
+<section id="about">
+<div class="wrap">
+<div class="section-head"><div><div class="eyebrow">ABOUT US</div><h2>Business support<br>made simpler.</h2></div><p>Trust Link Business Services offers comprehensive typing and business support solutions to individuals, investors, and corporations across the UAE.</p></div>
+<div class="about-grid">
+<div class="lead">One partner for the essential processes that keep your UAE business moving.</div>
+<div class="copy"><p>With years of industry experience and a passionate, qualified team, we specialize in streamlining governmental processes, visa applications, company formation, document processing, and corporate PRO services.</p><p>Our aim is to deliver efficient, cost-effective, and fully compliant services while building lasting client relationships.</p><div class="tags"><span class="tag">Business Setup</span><span class="tag">Visa Support</span><span class="tag">PRO Services</span><span class="tag">Government Services</span><span class="tag">Document Processing</span></div></div>
+</div>
+</div>
+</section>
+
+<section class="services" id="services">
+<div class="wrap">
+<div class="section-head"><div><div class="eyebrow">OUR SERVICES</div><h2>Solutions for individuals<br>& businesses.</h2></div><p>From company formation to everyday government documentation, our team helps simplify essential UAE processes.</p></div>
+<div class="services-feature">
+  <div class="services-intro">
+    <div class="eyebrow">UAE BUSINESS SUPPORT</div>
+    <h3>Everything you need, handled with confidence.</h3>
+    <p>From licensing and visas to documentation, PRO support and government services, Trust Link helps make important business processes simpler and more organised.</p>
+  </div>
+  <div class="services-visual" aria-label="Professional UAE business services illustration">
+    <svg viewBox="0 0 720 430" role="img" aria-hidden="true" xmlns="http://www.w3.org/2000/svg">
+      <defs>
+        <linearGradient id="svcBg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0b2743"/><stop offset="1" stop-color="#1769c2"/></linearGradient>
+        <linearGradient id="svcGlass" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#ffffff" stop-opacity=".18"/><stop offset="1" stop-color="#ffffff" stop-opacity=".04"/></linearGradient>
+      </defs>
+      <rect width="720" height="430" fill="url(#svcBg)"/>
+      <circle cx="590" cy="70" r="130" fill="#55c7df" opacity=".10"/>
+      <circle cx="95" cy="365" r="150" fill="#ffffff" opacity=".05"/>
+      <path d="M0 350h720" stroke="#fff" stroke-opacity=".12"/>
+      <g fill="#dcecf5" opacity=".95">
+        <path d="M45 350v-82h62v82zm12-60h10v14H57zm20 0h10v14H77zm20 0h10v14H97zM57 306h10v14H57zm20 0h10v14H77zm20 0h10v14H97z"/>
+        <path d="M120 350V225h92v125zm16-95h13v18h-13zm25 0h13v18h-13zm25 0h13v18h-13zm-50 35h13v18h-13zm25 0h13v18h-13zm25 0h13v18h-13zm-50 35h13v18h-13zm25 0h13v18h-13zm25 0h13v18h-13z"/>
+        <path d="M232 350V190l56-34 56 34v160h-28v-92h-56v92zm28-120h20v20h-20zm36 0h20v20h-20z"/>
+      </g>
+      <g transform="translate(365 72)">
+        <rect x="0" y="0" width="260" height="170" rx="18" fill="url(#svcGlass)" stroke="#fff" stroke-opacity=".20"/>
+        <rect x="28" y="28" width="94" height="114" rx="10" fill="#fff" opacity=".95"/>
+        <path d="M48 55h55M48 73h55M48 91h42M48 116h26" stroke="#1769c2" stroke-width="7" stroke-linecap="round" opacity=".75"/>
+        <circle cx="183" cy="66" r="29" fill="#55c7df" opacity=".95"/>
+        <path d="M168 66l10 10 20-23" fill="none" stroke="#092139" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+        <rect x="150" y="108" width="74" height="10" rx="5" fill="#fff" opacity=".65"/>
+        <rect x="150" y="127" width="52" height="10" rx="5" fill="#fff" opacity=".35"/>
+      </g>
+      <g transform="translate(390 275)">
+        <rect width="235" height="82" rx="16" fill="#fff" opacity=".96"/>
+        <circle cx="43" cy="41" r="23" fill="#1769c2"/>
+        <path d="M31 42h24M43 30v24" stroke="#fff" stroke-width="5" stroke-linecap="round"/>
+        <rect x="78" y="27" width="112" height="11" rx="5.5" fill="#102238" opacity=".82"/>
+        <rect x="78" y="47" width="82" height="9" rx="4.5" fill="#7d8da0" opacity=".55"/>
+      </g>
+      <text x="48" y="52" fill="#fff" font-family="Arial, sans-serif" font-size="17" font-weight="700" letter-spacing="2">TRUST LINK</text>
+      <text x="48" y="76" fill="#bfe5f0" font-family="Arial, sans-serif" font-size="11" letter-spacing="2">BUSINESS SERVICES</text>
+    </svg>
+  </div>
+</div>
+<div class="grid">
+<article class="card"><div class="service-image"><svg viewBox="0 0 600 240" aria-hidden="true"><rect width="600" height="240" rx="18" fill="#eaf5fb"/><rect x="55" y="58" width="230" height="125" rx="8" fill="#fff" stroke="#b9d9e7" stroke-width="4"/><path d="M42 60L170 20l128 40" fill="#1769c2"/><rect x="92" y="92" width="45" height="90" fill="#d7eef7"/><rect x="153" y="92" width="45" height="90" fill="#d7eef7"/><rect x="214" y="92" width="45" height="90" fill="#d7eef7"/><circle cx="430" cy="105" r="55" fill="#55c7df" opacity=".8"/><path d="M405 105l17 17 34-39" fill="none" stroke="#fff" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/><path d="M365 177h130" stroke="#173a63" stroke-width="12" stroke-linecap="round"/></svg></div><h3>Complete Business Setup</h3><p>Mainland, Free Zone and Offshore business setup support.</p></article>
+<article class="card"><div class="service-image"><svg viewBox="0 0 600 240" aria-hidden="true"><rect width="600" height="240" rx="18" fill="#f1f7fb"/><rect x="145" y="28" width="310" height="184" rx="10" fill="#fff" stroke="#b8d6e6" stroke-width="4"/><rect x="177" y="57" width="115" height="14" rx="7" fill="#1769c2"/><rect x="177" y="87" width="235" height="9" rx="4" fill="#c9d8e3"/><rect x="177" y="108" width="190" height="9" rx="4" fill="#c9d8e3"/><rect x="177" y="129" width="220" height="9" rx="4" fill="#c9d8e3"/><circle cx="377" cy="169" r="28" fill="#55c7df"/><path d="M362 169l10 10 21-24" fill="none" stroke="#fff" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/></svg></div><h3>Trade License</h3><p>Trade license registration and renewal assistance.</p></article>
+<article class="card"><div class="service-image"><svg viewBox="0 0 600 240" aria-hidden="true"><rect width="600" height="240" rx="18" fill="#f5f7fa"/><rect x="112" y="30" width="230" height="175" rx="8" fill="#fff" stroke="#bdd4e2" stroke-width="4" transform="rotate(-7 112 30)"/><path d="M165 75h120M165 100h120M165 125h90" stroke="#aabccc" stroke-width="10" stroke-linecap="round"/><path d="M405 58l42 42-42 42-42-42z" fill="#1769c2" opacity=".95"/><path d="M384 100h42M405 79v42" stroke="#fff" stroke-width="7" stroke-linecap="round"/><circle cx="455" cy="173" r="35" fill="#55c7df"/><path d="M438 173h34" stroke="#fff" stroke-width="7" stroke-linecap="round"/><path d="M455 156v34" stroke="#fff" stroke-width="7" stroke-linecap="round"/></svg></div><h3>MOA & Legal Translation</h3><p>MOA drafting, notarization and legal translation.</p></article>
+<article class="card"><div class="service-image"><svg viewBox="0 0 600 240" aria-hidden="true"><rect width="600" height="240" rx="18" fill="#edf7fa"/><rect x="110" y="38" width="260" height="165" rx="12" fill="#173a63"/><rect x="135" y="62" width="105" height="105" rx="8" fill="#55c7df"/><circle cx="188" cy="95" r="22" fill="#fff"/><path d="M155 143c10-24 56-24 66 0" fill="#fff"/><rect x="263" y="70" width="78" height="10" rx="5" fill="#fff" opacity=".8"/><rect x="263" y="94" width="55" height="10" rx="5" fill="#fff" opacity=".55"/><rect x="263" y="118" width="68" height="10" rx="5" fill="#fff" opacity=".55"/><circle cx="430" cy="130" r="52" fill="#1769c2"/><path d="M405 130l17 17 34-39" fill="none" stroke="#fff" stroke-width="11" stroke-linecap="round" stroke-linejoin="round"/></svg></div><h3>Visa Services</h3><p>Investor, employee and dependent visa processing and renewal.</p></article>
+<article class="card"><div class="service-image"><svg viewBox="0 0 600 240" aria-hidden="true"><rect width="600" height="240" rx="18" fill="#eef8f5"/><rect x="75" y="53" width="265" height="135" rx="16" fill="#fff" stroke="#b8dcd3" stroke-width="4"/><circle cx="132" cy="120" r="34" fill="#dff4ee"/><circle cx="132" cy="110" r="13" fill="#1769c2"/><path d="M110 143c8-19 36-19 44 0" fill="#1769c2"/><rect x="180" y="88" width="112" height="12" rx="6" fill="#1769c2"/><rect x="180" y="114" width="85" height="10" rx="5" fill="#b9cbd5"/><rect x="180" y="137" width="100" height="10" rx="5" fill="#b9cbd5"/><circle cx="450" cy="120" r="56" fill="#55c7df"/><path d="M450 83v74M413 120h74" stroke="#fff" stroke-width="13" stroke-linecap="round"/></svg></div><h3>Emirates ID & Medical</h3><p>Typing and assistance for Emirates ID and medical procedures.</p></article>
+<article class="card"><div class="service-image"><svg viewBox="0 0 600 240" aria-hidden="true"><rect width="600" height="240" rx="18" fill="#f1f5fb"/><rect x="80" y="72" width="270" height="120" rx="12" fill="#fff" stroke="#c6d5e4" stroke-width="4"/><rect x="108" y="98" width="85" height="14" rx="7" fill="#1769c2"/><rect x="108" y="127" width="190" height="9" rx="4" fill="#c5d3df"/><rect x="108" y="150" width="145" height="9" rx="4" fill="#c5d3df"/><circle cx="430" cy="105" r="30" fill="#55c7df"/><circle cx="505" cy="105" r="30" fill="#1769c2"/><circle cx="468" cy="162" r="30" fill="#173a63"/><path d="M400 165c12-22 48-22 60 0M475 165c12-22 48-22 60 0M438 215c12-22 48-22 60 0" fill="none" stroke="#fff" stroke-width="8"/></svg></div><h3>Labour Quota & PRO</h3><p>Labour quota support and corporate PRO services.</p></article>
+<article class="card"><div class="service-image"><svg viewBox="0 0 600 240" aria-hidden="true"><rect width="600" height="240" rx="18" fill="#f7f5ef"/><rect x="125" y="30" width="240" height="178" rx="8" fill="#fff" stroke="#d9cfb7" stroke-width="4"/><rect x="155" y="62" width="125" height="12" rx="6" fill="#1769c2"/><rect x="155" y="90" width="170" height="9" rx="4" fill="#c8c1b0"/><rect x="155" y="112" width="145" height="9" rx="4" fill="#c8c1b0"/><circle cx="285" cy="158" r="31" fill="#55c7df"/><path d="M268 158l12 12 23-27" fill="none" stroke="#fff" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/><path d="M425 60l54 54-54 54-54-54z" fill="#173a63"/><text x="392" y="122" font-family="Arial" font-size="22" font-weight="700" fill="#fff">A↔ع</text></svg></div><h3>Attestation & Translation</h3><p>Document attestation and translation assistance.</p></article>
+<article class="card"><div class="service-image"><svg viewBox="0 0 600 240" aria-hidden="true"><rect width="600" height="240" rx="18" fill="#eef8f5"/><path d="M300 32l92 36v58c0 48-37 77-92 99-55-22-92-51-92-99V68z" fill="#1769c2"/><path d="M300 66l59 23v36c0 30-23 49-59 64-36-15-59-34-59-64V89z" fill="#55c7df"/><path d="M267 123l23 23 47-53" fill="none" stroke="#fff" stroke-width="13" stroke-linecap="round" stroke-linejoin="round"/><path d="M115 170h70M415 170h70" stroke="#9ac8bb" stroke-width="12" stroke-linecap="round"/></svg></div><h3>ILOE & Health Insurance</h3><p>Assistance with ILOE and health insurance services.</p></article>
+<article class="card"><div class="service-image"><svg viewBox="0 0 600 240" aria-hidden="true"><rect width="600" height="240" rx="18" fill="#edf5fb"/><path d="M75 108L210 35l135 73v95H75z" fill="#fff" stroke="#b7d1e1" stroke-width="4"/><path d="M55 111l155-84 155 84" fill="#1769c2"/><rect x="150" y="133" width="55" height="70" fill="#d7eef7"/><rect x="245" y="135" width="65" height="30" rx="4" fill="#55c7df"/><rect x="245" y="176" width="65" height="27" rx="4" fill="#d7eef7"/><rect x="390" y="66" width="135" height="120" rx="10" fill="#fff" stroke="#b7d1e1" stroke-width="4"/><rect x="415" y="91" width="85" height="10" rx="5" fill="#1769c2"/><rect x="415" y="116" width="85" height="8" rx="4" fill="#c4d4df"/><rect x="415" y="137" width="60" height="8" rx="4" fill="#c4d4df"/><circle cx="475" cy="163" r="14" fill="#55c7df"/></svg></div><h3>EJARI & Tenancy</h3><p>EJARI and tenancy contract typing support.</p></article>
+<article class="card"><div class="service-image"><svg viewBox="0 0 600 240" aria-hidden="true"><rect width="600" height="240" rx="18" fill="#f1f6fb"/><rect x="70" y="70" width="270" height="120" rx="12" fill="#fff" stroke="#c3d5e2" stroke-width="4"/><rect x="102" y="96" width="100" height="13" rx="6" fill="#1769c2"/><rect x="102" y="126" width="195" height="9" rx="4" fill="#c5d3de"/><rect x="102" y="150" width="150" height="9" rx="4" fill="#c5d3de"/><circle cx="450" cy="125" r="62" fill="#173a63"/><path d="M450 80v90M415 98h70M420 152h60" stroke="#55c7df" stroke-width="10" stroke-linecap="round"/><text x="415" y="139" font-family="Arial" font-size="24" font-weight="700" fill="#fff">AED</text></svg></div><h3>VAT & Bank Support</h3><p>VAT registration and company bank account support.</p></article>
+<article class="card"><div class="service-image"><svg viewBox="0 0 600 240" aria-hidden="true"><rect width="600" height="240" rx="18" fill="#f7f4f1"/><rect x="120" y="30" width="250" height="178" rx="9" fill="#fff" stroke="#d9cbbd" stroke-width="4"/><rect x="153" y="62" width="125" height="12" rx="6" fill="#1769c2"/><rect x="153" y="92" width="175" height="9" rx="4" fill="#cbbfb5"/><rect x="153" y="114" width="150" height="9" rx="4" fill="#cbbfb5"/><rect x="153" y="136" width="110" height="9" rx="4" fill="#cbbfb5"/><circle cx="278" cy="172" r="25" fill="#55c7df"/><path d="M264 172l10 10 19-23" fill="none" stroke="#fff" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/><path d="M430 48l70 30v52c0 37-27 59-70 76-43-17-70-39-70-76V78z" fill="#173a63"/><path d="M407 112l18 18 35-40" fill="none" stroke="#55c7df" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/></svg></div><h3>POA & Court Typing</h3><p>Power of Attorney and court typing assistance.</p></article>
+<article class="card"><div class="service-image"><svg viewBox="0 0 600 240" aria-hidden="true"><rect width="600" height="240" rx="18" fill="#edf7fa"/><circle cx="205" cy="116" r="66" fill="#55c7df" opacity=".85"/><circle cx="395" cy="116" r="66" fill="#1769c2" opacity=".95"/><path d="M271 116h58" stroke="#173a63" stroke-width="18" stroke-linecap="round"/><path d="M286 100l-18 16 18 16M314 100l18 16-18 16" fill="none" stroke="#173a63" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/><path d="M170 118c22-28 48-28 70 0M360 118c22-28 48-28 70 0" fill="none" stroke="#fff" stroke-width="10" stroke-linecap="round"/><circle cx="205" cy="93" r="18" fill="#fff"/><circle cx="395" cy="93" r="18" fill="#fff"/></svg></div><h3>Local Sponsorship</h3><p>Local sponsorship and service agent support.</p></article>
+</div>
+</div>
+</section>
+
+<section class="mission" id="mission">
+<div class="wrap">
+<div class="section-head"><div><div class="eyebrow" style="color:#55c7df">MISSION & VISION</div><h2>Making UAE procedures easier.</h2></div><p>Focused on simplifying legal, administrative and governmental procedures while building long-term client trust.</p></div>
+<div class="mission-grid">
+<article class="mission-card"><div class="mission-icon">M</div><h3>Our Mission</h3><p>To become a leading business services provider in the UAE, dedicated to simplifying legal, administrative, and governmental procedures for individuals and businesses.</p><p>We strive to consistently exceed expectations by offering high-quality, transparent, and client-centered services.</p></article>
+<article class="mission-card"><div class="mission-icon">V</div><h3>Our Vision</h3><p>To be the most trusted partner for entrepreneurs and corporations looking to grow their business in the UAE.</p><p>We aim to set new standards of excellence in customer service and help our clients navigate the UAE's business landscape with confidence and ease.</p></article>
+</div>
+</div>
+</section>
+
+<section class="cta">
+<div class="wrap cta-row"><div><div class="eyebrow" style="color:#bfeeff">READY TO GET STARTED?</div><h2>Let's make your next business process simpler.</h2><p>Speak with Trust Link about the service you need.</p></div><a class="white" href="https://wa.me/971562669307?text=Hello%20Trust%20Link%2C%20I%20would%20like%20to%20know%20more%20about%20your%20services." target="_blank">Chat on WhatsApp →</a></div>
+</section>
+
+<section class="contact" id="contact">
+<div class="wrap">
+<div class="section-head"><div><div class="eyebrow">CONTACT US</div><h2>We're here<br>to help.</h2></div><p>Visit our office in Khalidiyah, Abu Dhabi, or contact our team directly.</p></div>
+<div class="contact-grid">
+<div class="items">
+<div class="item"><span class="item-icon">⌖</span><div><small>OFFICE</small><h3>Visit us</h3><p>11, Nad At Tousha St, AL 12,<br>Khalidiyah, Abu Dhabi City, UAE</p></div></div>
+<div class="item"><span class="item-icon">☎</span><div><small>PHONE</small><h3>Call us</h3><p><a href="tel:+971562669307">+971 56 266 9307</a></p></div></div>
+<div class="item"><span class="item-icon">@</span><div><small>EMAIL</small><h3>Email us</h3><p><a href="mailto:info@trustlinksuae.com">info@trustlinksuae.com</a></p></div></div>
+<div class="item"><span class="item-icon">◷</span><div><small>WORKING HOURS</small><h3>Saturday – Thursday</h3><p>8:00 AM – 8:00 PM</p></div></div>
+</div>
+<div class="map" aria-label="Trust Link office map preview">
+<iframe src="https://www.google.com/maps?q=24.475734,54.345490&z=17&output=embed" loading="lazy" allowfullscreen="" referrerpolicy="no-referrer-when-downgrade" title="Trust Link Business Services office map"></iframe>
+<a class="map-click" href="https://www.google.com/maps/search/?api=1&query=24.475734%2C54.345490" target="_blank" rel="noopener" aria-label="Open Trust Link office location in Google Maps"><span>📍</span><strong>Open in Google Maps</strong><span>↗</span></a>
+</div>
+</div>
+</div>
+</section>
+</main>
+
+<footer><div class="wrap footer"><a class="logo" href="#home"><span class="logo-mark">TL</span><span>TRUST LINK<small>BUSINESS SERVICES</small></span></a><p>© <span id="year"></span> Trust Link Business Services. All rights reserved.</p><span></span></div></footer>
+<a class="float call" href="tel:+971562669307" aria-label="Call">☎</a>
+<a class="float wa" href="https://wa.me/971562669307" target="_blank" aria-label="WhatsApp">◔</a>
+
+<script>
+(function(){
+  var menu=document.getElementById('menu');
+  var links=document.getElementById('links');
+  if(menu){menu.addEventListener('click',function(){links.classList.toggle('open');});}
+  document.querySelectorAll('#links a').forEach(function(a){a.addEventListener('click',function(){links.classList.remove('open');});});
+  document.getElementById('year').textContent=new Date().getFullYear();
+})();
+</script>
+</body>
+</html>
